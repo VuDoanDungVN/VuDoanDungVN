@@ -1,0 +1,104 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vu Dung — Backend Engineer, Full Stack Developer">
+  <style>
+    .bg { fill: url(#bgGrad); }
+    .name { font: 700 52px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: url(#nameGrad); }
+    .role { font: 600 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #334155; }
+    .tagline { font: 400 16px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #64748b; }
+    .prompt { fill: #6366f1; }
+    .chip { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+    .chip-text { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #475569; }
+    .dot { fill: #cbd5e1; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: url(#bgGradDark); }
+      .name { fill: url(#nameGradDark); }
+      .role { fill: #cbd5e1; }
+      .tagline { fill: #94a3b8; }
+      .prompt { fill: #a5b4fc; }
+      .chip { fill: #1e293b; stroke: #334155; }
+      .chip-text { fill: #cbd5e1; }
+      .dot { fill: #334155; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="55%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#fdf4ff"/>
+    </linearGradient>
+    <linearGradient id="bgGradDark" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+      <animate attributeName="x1" values="0;80;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="520;600;520" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="nameGradDark" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+      <animate attributeName="x1" values="0;80;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="520;600;520" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect width="1200" height="300" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" class="bg"/>
+
+    <circle cx="1080" cy="40" r="220" fill="url(#glow1)"/>
+    <circle cx="60" cy="280" r="180" fill="url(#glow2)"/>
+
+    <!-- dot grid -->
+    <g class="dot" opacity="0.6">
+      <circle cx="1000" cy="60" r="2"/><circle cx="1030" cy="60" r="2"/><circle cx="1060" cy="60" r="2"/><circle cx="1090" cy="60" r="2"/>
+      <circle cx="1000" cy="90" r="2"/><circle cx="1030" cy="90" r="2"/><circle cx="1060" cy="90" r="2"/><circle cx="1090" cy="90" r="2"/>
+      <circle cx="1000" cy="120" r="2"/><circle cx="1030" cy="120" r="2"/><circle cx="1060" cy="120" r="2"/><circle cx="1090" cy="120" r="2"/>
+    </g>
+
+    <!-- text block -->
+    <text x="70" y="115" class="name">Vũ Dũng</text>
+    <text x="72" y="150" class="role">Backend Engineer · Full Stack Developer</text>
+    <text x="72" y="185" class="tagline"><tspan class="prompt">$</tspan> shipping mobile, desktop &amp; backend systems that work</text>
+
+    <!-- floating tech chips -->
+    <g transform="translate(72, 215)">
+      <g>
+        <rect class="chip" width="70" height="30" rx="15"/>
+        <text x="35" y="20" text-anchor="middle" class="chip-text">Flutter</text>
+      </g>
+      <g transform="translate(80, 0)">
+        <rect class="chip" width="60" height="30" rx="15"/>
+        <text x="30" y="20" text-anchor="middle" class="chip-text">React</text>
+      </g>
+      <g transform="translate(150, 0)">
+        <rect class="chip" width="110" height="30" rx="15"/>
+        <text x="55" y="20" text-anchor="middle" class="chip-text">React Native</text>
+      </g>
+      <g transform="translate(270, 0)">
+        <rect class="chip" width="52" height="30" rx="15"/>
+        <text x="26" y="20" text-anchor="middle" class="chip-text">C#</text>
+      </g>
+      <g transform="translate(332, 0)">
+        <rect class="chip" width="72" height="30" rx="15"/>
+        <text x="36" y="20" text-anchor="middle" class="chip-text">Python</text>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="4s" repeatCount="indefinite" additive="sum"/>
+    </g>
+  </g>
+</svg>

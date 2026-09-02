@@ -1,0 +1,73 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="animated terminal showing sample code">
+  <style>
+    .win { fill: #ffffff; stroke: #e2e8f0; }
+    .bar { fill: #f8fafc; }
+    .title { font: 500 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #94a3b8; }
+    .code { font: 400 14px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .kw { fill: #d946ef; }
+    .fn { fill: #6366f1; }
+    .str { fill: #059669; }
+    .cm { fill: #94a3b8; }
+    .pl { fill: #334155; }
+    .cursor { fill: #6366f1; }
+    @media (prefers-color-scheme: dark) {
+      .win { fill: #0f172a; stroke: #1e293b; }
+      .bar { fill: #111827; }
+      .title { fill: #64748b; }
+      .kw { fill: #f0abfc; }
+      .fn { fill: #a5b4fc; }
+      .str { fill: #6ee7b7; }
+      .cm { fill: #64748b; }
+      .pl { fill: #cbd5e1; }
+      .cursor { fill: #a5b4fc; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="598" height="298" rx="16" class="win" stroke-width="1"/>
+  <path d="M1 17 A16 16 0 0 1 17 1 H583 A16 16 0 0 1 599 17 V44 H1 Z" class="bar"/>
+  <circle cx="26" cy="22" r="6" fill="#f87171"/>
+  <circle cx="46" cy="22" r="6" fill="#fbbf24"/>
+  <circle cx="66" cy="22" r="6" fill="#34d399"/>
+  <text x="300" y="27" text-anchor="middle" class="title">engineer.py</text>
+
+  <g class="code">
+    <text x="28" y="80" opacity="0">
+      <tspan class="kw">class</tspan><tspan class="pl" dx="6">Engineer:</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.045;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="108" opacity="0">
+      <tspan class="pl" dx="20">stack</tspan><tspan class="pl">&#160;=&#160;[</tspan><tspan class="str">"Flutter"</tspan><tspan class="pl">,&#160;</tspan><tspan class="str">"React"</tspan><tspan class="pl">,&#160;</tspan><tspan class="str">"C#"</tspan><tspan class="pl">]</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.075;0.08;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="136" opacity="0">
+      <tspan class="pl" dx="20">focus</tspan><tspan class="pl">&#160;=&#160;</tspan><tspan class="str">"mobile, desktop &amp; backend"</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.11;0.115;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="164" opacity="0">
+      <tspan dx="0"> </tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.145;0.15;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="192" opacity="0">
+      <tspan class="kw" dx="20">def</tspan><tspan class="fn" dx="6">ship</tspan><tspan class="pl">(self):</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.185;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="220" opacity="0">
+      <tspan class="kw" dx="40">return</tspan><tspan class="str" dx="6">"quality code, on time"</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.215;0.22;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="28" y="248" opacity="0">
+      <tspan class="cm">$ python engineer.py --run</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.255;0.83;0.88;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="26" y="256" width="9" height="16" class="cursor" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.25;0.30;0.35;0.40;0.45;0.5;0.83;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
